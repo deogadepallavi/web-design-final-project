@@ -1,0 +1,50 @@
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+  
+  }
+
+  .card {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color: #eeeeee;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    margin: 15px;
+    border: 1px solid;
+  }
+  
+  .cardpic {
+    aspect-ratio: 1/1;
+    width: 70%;
+  }
+
+  .open {
+    border: none;
+    text-decoration: underline;
+    color: blue;
+    font-size: 1rem;
+  }
+  
+  @media screen and (max-width: 850px) {
+        
+    .cards {
+        grid-template-columns: 1fr;
+      }
+    
+      .card {
+        grid-column: span 8;
+        align-items: baseline;
+    
+      }
+       
+    
+}
+  
+  

@@ -1,0 +1,116 @@
+.home {
+  padding-top: 10px;
+  width: 100%;
+  background: rgb(222, 66, 66);
+  background: linear-gradient(90deg, rgba(222, 66, 66, 1) 0%, rgba(202, 32, 32, 1) 94%);
+}
+
+.home-light {
+  padding-top: 10px;
+  width: 100%;
+  background: rgb(228, 212, 65);
+  background: linear-gradient(90deg, rgb(228, 212, 65) 0%, rgb(231, 228, 43) 94%);
+}
+
+h1 {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-right {
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.text-style-right {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+
+.card-pic-right {
+  order: 2;
+}
+
+.card-pic-left {
+  order: 1;
+}
+
+
+.card-left {
+  display: flex;
+}
+
+
+.left-img {
+  float: left;
+  padding-top: 20px;
+  height: 440px;
+  width: 800px;
+}
+
+.right-img {
+  padding-top: 20px;
+  height: 440px;
+  width: 800px;
+}
+
+.text-style-left {
+  padding: 10px;
+  order: 2;
+  font-size: 1rem;
+}
+
+.card-pic-right-bottom {
+  order: 2;
+}
+
+.space-style {
+  margin-top: 0;
+}
+
+.text-for {
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 850px) {
+
+  img {
+    width: 125px;
+    height: 125px;
+  }
+
+
+  .card-right {
+    display: block;
+    margin: 0;
+  }
+
+
+  .card-pic-right {
+    float: right;
+  }
+
+  .card-pic-left {
+    float: left;
+  }
+
+  .card-pic-right-bottom {
+    float: right;
+  }
+
+
+  .left-img {
+    margin-right: 10px;
+    ;
+    width: 125px;
+    height: 125px;
+  }
+
+  img.right-img {
+    width: 125px;
+    height: 125px;
+  }
+
+}
